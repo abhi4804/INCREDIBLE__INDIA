@@ -17,6 +17,8 @@ when app gets started , the home page will comeup with a beautiful poster of sho
 2.Next 
 ->if u r already at home page,click next 
 <img src="images/a1.png" align="left" width="400" height="600">
+<img src="images/a2.png" align="right" width="400" height="600">
+
 
 
 ->a page will get open ,showing name of states and union territories
