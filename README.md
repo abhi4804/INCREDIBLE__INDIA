@@ -1,4 +1,4 @@
-# Incredible India 
+# Incredible India <img src="images/flag.png"  width="50" height="50"/>
 
 A  Flutter project.
 
