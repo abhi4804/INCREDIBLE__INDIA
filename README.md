@@ -26,14 +26,18 @@ when app gets started , the home page will comeup with a beautiful poster of sho
 
 
 
-<img src="images/a1.png" align="center" width="400" height="600">
-<img src="images/a2.png" align="center" width="400" height="600">
+
 
 
 
 ->a page will get open ,showing name of states and union territories
+
+<img src="images/a1.png" align="center" width="400" height="600">
+<img src="images/b1.png" align="center" width="400" height="600">
 ->click on any state or union territory which u want to explore
 ->after clicking , a page will get open showing culture, attire, tourist place , folk dance , monuments, religious places etc.
+<img src="images/a2.png" align="center" width="400" height="600">
+<img src="images/b2.png" align="center" width="400" height="600">
 ->to open image on new page click on that respective image 
 ->to go back use navigation button
 
