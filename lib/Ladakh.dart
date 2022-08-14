@@ -4,7 +4,7 @@ import 'package:full_screen_image/full_screen_image.dart';
 class lad extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(backgroundColor: Colors.black,
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(

@@ -5,14 +5,23 @@ class AndamanandNicobarIslands extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      backgroundColor: Colors.black,
+      body:
+
+      Container(
+
+
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage('images/.jpeg'),
-            fit: BoxFit.cover,
+
+            fit: BoxFit.fitWidth,
           ),
+
         ),
+
         child: Column(
+
           children: [
             Expanded(
               child: Row(
@@ -93,6 +102,7 @@ class AndamanandNicobarIslands extends StatelessWidget {
                       ),
                     ),
                   ),
+
                 ],
               ),
             ),

@@ -10,7 +10,7 @@ import 'package:hack/Manipur.dart';
 import 'package:hack/Meghalaya.dart';
 import 'package:hack/Puducherry.dart';
 import 'package:hack/kashmir.dart';
-import 'package:hack/widget.dart';
+import 'package:full_screen_image/full_screen_image.dart';
 import 'bihar.dart';
 import 'andh.dart';
 import 'package:hack/Arunachal Pradesh.dart';
@@ -52,21 +52,9 @@ class states extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.black,
-        title: Center(
-          child: Text(
-            'STATES & UT',
-            style: TextStyle(
-              color: Colors.grey,
-              fontFamily: 'Kaushan',
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-            ),
-          ),
-        ),
-      ),
+    return
+      Scaffold(
+
       body: Container(
         height: 10000,
         color: Colors.black,
@@ -77,11 +65,30 @@ class states extends StatelessWidget {
                 width: double.infinity,
                 height: 20,
               ),
+              Container(
+                height: 60,
+                child: Center(child: Text('STATES',
+                  style: TextStyle(
+                    fontSize: 40,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'kaushan',
+                    color: Colors.grey,
+
+                  ),),),
+              ),
 
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -112,7 +119,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -142,7 +157,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -172,7 +195,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -202,7 +233,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -232,7 +271,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -262,7 +309,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -292,7 +347,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -323,7 +386,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -353,7 +424,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -383,7 +462,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -414,7 +501,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -444,7 +539,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -474,7 +577,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -504,7 +615,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -534,7 +653,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -564,7 +691,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -594,7 +729,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -624,7 +767,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -654,7 +805,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -684,7 +843,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -714,7 +881,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -744,7 +919,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -774,7 +957,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -804,7 +995,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -834,7 +1033,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -864,7 +1071,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -894,7 +1109,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -920,11 +1143,31 @@ class states extends StatelessWidget {
                 width: double.infinity,
                 height: 20,
               ),
+
+              Container(
+                height: 60,
+                child: Center(child: Text('UT',
+                style: TextStyle(
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'kaushan',
+                  color: Colors.grey,
+
+                ),),),
+              ),
               //st28
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -955,7 +1198,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -985,7 +1236,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 90,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -1017,7 +1276,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -1047,7 +1314,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -1077,7 +1352,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -1107,7 +1390,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
@@ -1137,7 +1428,15 @@ class states extends StatelessWidget {
               InkWell(
                 child: Container(
                   height: 50,
-                  color: Color(0xFF1D1F33),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(102, 102, 102, 1),
+                            Color.fromRGBO(102, 102, 102, .3),
+                          ]
+                      )
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Center(
