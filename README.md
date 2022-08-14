@@ -62,6 +62,6 @@ when app gets started , the home page will comeup with a beautiful poster of sho
 
 #UNITY IN DIVERSITY
 
-#JAI HIND
+#JAI HIND  <img src="images/sal.jpeg"  width="90" height="110"/>
 
 
