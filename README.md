@@ -15,9 +15,23 @@ We made a app which shows the culture, attire , traditions, temples and tourist 
 when app gets started , the home page will comeup with a beautiful poster of showing heritage of our nation . At bottom two options are available : 
 1.Home  
 2.Next 
-->if u r already at home page,click next 
+->if u r already at home page,click next   
+
+
+
+
+
+
+
+
+
+
 <img src="images/a1.png" align="left" width="400" height="600">
 <img src="images/a2.png" align="right" width="400" height="600">
+
+
+
+
 
 
 
