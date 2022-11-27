@@ -56,9 +56,7 @@ when app gets started , the home page will comeup with a beautiful poster of sho
 
 ->to go back use navigation button
 
-#DEVELOPERS
-1. ABHINAV SHARMA 
-2. ANISH KUMAR
+
 
 #UNITY IN DIVERSITY
 
